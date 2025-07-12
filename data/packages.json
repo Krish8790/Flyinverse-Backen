@@ -1,0 +1,20 @@
+[
+  {
+    "id": "goa-beach",
+    "title": "Goa Beach Getaway",
+    "price": "₹15,000",
+    "duration": "3 Nights / 4 Days",
+    "highlights": ["Beach stay", "Water sports", "Nightlife"],
+    "description": "Relax in Goa's beautiful beaches with luxury stays, exciting water adventures, and vibrant nightlife.",
+    "image": "/images/packages/goa.jpg"
+  },
+  {
+    "id": "bali-escape",
+    "title": "Bali Escape – 6 Nights / 7 Days",
+    "price": "₹68,000",
+    "duration": "6 Nights / 7 Days",
+    "highlights": ["Ubud tour", "Beach villa", "Mount Batur"],
+    "description": "Includes flights, beach villa, daily breakfast, and guided tours to Ubud, Tanah Lot & Mount Batur.",
+    "image": "/images/packages/Bali.jpg"
+  }
+]

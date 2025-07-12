@@ -1,0 +1,11 @@
+[
+  {
+    "id": "burj-dubai",
+    "title": "Burj Al Arab, Dubai",
+    "price": "₹1,95,000",
+    "duration": "Per night",
+    "highlights": ["7-star luxury", "Private beach", "Airport limo"],
+    "description": "Experience unparalleled luxury in the iconic Burj Al Arab hotel.",
+    "image": "/images/Hotels/burj.jpg"
+  }
+]
