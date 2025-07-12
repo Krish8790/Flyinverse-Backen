@@ -6,7 +6,7 @@
     "duration": "3 Nights / 4 Days",
     "highlights": ["Beach stay", "Water sports", "Nightlife"],
     "description": "Relax in Goa's beautiful beaches with luxury stays, exciting water adventures, and vibrant nightlife.",
-    "image": "/images/packages/goa.jpg"
+    "image": "https://flyinverse.com/images/Packages/goa.jpg"
   },
   {
     "id": "bali-escape",
@@ -15,6 +15,6 @@
     "duration": "6 Nights / 7 Days",
     "highlights": ["Ubud tour", "Beach villa", "Mount Batur"],
     "description": "Includes flights, beach villa, daily breakfast, and guided tours to Ubud, Tanah Lot & Mount Batur.",
-    "image": "/images/packages/Bali.jpg"
+    "image": "https://flyinverse.com/images/Packages/Bali.jpg"
   }
 ]
