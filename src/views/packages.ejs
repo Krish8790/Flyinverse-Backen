@@ -60,7 +60,7 @@
     <h3><a href="/packages/<%= p.id %>"><%= p.title %></a></h3>
   </header>
 
-  <p><%= p.description %><br>Starting at <%= p.price %></p>
+  <p><%= p.description.substring(0, 100) %>...<br>Starting at <%= p.price %></p>
 
   <% if (p.inclusions && p.inclusions.length) { %>
     <h4>Inclusions:</h4>

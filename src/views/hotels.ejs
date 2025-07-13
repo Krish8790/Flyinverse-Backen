@@ -59,7 +59,7 @@
             <header>
               <h3><a href="/hotels/<%= h.id %>"><%= h.title %></a></h3>
             </header>
-            <p><%= h.description %><br>Starting at <%= h.price %></p>
+            <p><%= h.description.substring(0, 100) %>...<br>Starting at <%= h.price %></p>
             <% if (h.inclusions && h.inclusions.length) { %>
     <h4>Inclusions:</h4>
     <ul>
