@@ -46,30 +46,39 @@
     </div>
 
     <!-- Package Content -->
-    <section class="wrapper style1">
-      <div class="container">
-        <header class="major">
-          <h2><%= package.title %></h2>
-          <p><%= package.duration %> | Starting at <%= package.price %></p>
-        </header>
-        <div class="row">
-          <div class="col-6 col-12-medium">
-            <span class="image fit">
-              <img src="<%= package.image %>" alt="<%= package.title %>">
-            </span>
-          </div>
-          <div class="col-6 col-12-medium">
-            <h3>Highlights</h3>
-            <ul>
-              <% package.highlights.forEach(h => { %>
-                <li><%= h %></li>
-              <% }) %>
-            </ul>
-            <p><%= package.description %></p>
-          </div>
-        </div>
+   <section class="wrapper style1">
+  <div class="container">
+    <header class="major">
+      <h2><%= package.title %></h2>
+      <p><%= package.duration %> | Starting at <%= package.price %></p>
+    </header>
+    <div class="row">
+      <div class="col-6 col-12-medium">
+        <span class="image fit">
+          <img src="<%= package.image %>" alt="<%= package.title %>">
+        </span>
       </div>
-    </section>
+      <div class="col-6 col-12-medium">
+        <h3>Highlights</h3>
+        <ul>
+          <% package.highlights.forEach(h => { %>
+            <li><%= h %></li>
+          <% }) %>
+        </ul>
+
+        <h3>Inclusions</h3>
+        <ul>
+          <% package.inclusions.forEach(i => { %>
+            <li><%= i %></li>
+          <% }) %>
+        </ul>
+
+        <p><%= package.description %></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Footer -->
     <div id="footer">

@@ -50,18 +50,27 @@
         <section id="features" class="container special">
             <p>Loaded <%= packages.length %> packages</p>
             <% packages.forEach(p => { %>
-          <article class="col-4 col-12-mobile special">
-            <div class="carousel-image">
-              <a href="/packages/<%= p.id %>" class="image featured">
-                <img src="<%= p.image %>" alt="" />
-                <p><%= p.image %></p>
-              </a>
-            </div>
-            <header>
-              <h3><a href="/packages/<%= p.id %>"><%= p.title %></a></h3>
-            </header>
-            <p><%= p.description %><br>Starting at <%= p.price %></p>
-          </article>
+         <article class="col-4 col-12-mobile special">
+  <div class="carousel-image">
+    <a href="/packages/<%= p.id %>" class="image featured">
+      <img src="<%= p.image %>" alt="" />
+    </a>
+  </div>
+  <header>
+    <h3><a href="/packages/<%= p.id %>"><%= p.title %></a></h3>
+  </header>
+
+  <p><%= p.description %><br>Starting at <%= p.price %></p>
+
+  <% if (p.inclusions && p.inclusions.length) { %>
+    <h4>Inclusions:</h4>
+    <ul>
+      <% p.inclusions.forEach(i => { %>
+        <li><%= i %></li>
+      <% }) %>
+    </ul>
+  <% } %>
+</article>
           <% }) %>
         </section>
       </div>

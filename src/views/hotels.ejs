@@ -54,13 +54,20 @@
             <div class="carousel-image">
               <a href="/hotels/<%= h.id %>" class="image featured">
                 <img src="<%= h.image %>" alt="" />
-                <p><%= p.image %></p>
               </a>
             </div>
             <header>
               <h3><a href="/hotels/<%= h.id %>"><%= h.title %></a></h3>
             </header>
             <p><%= h.description %><br>Starting at <%= h.price %></p>
+            <% if (h.inclusions && h.inclusions.length) { %>
+    <h4>Inclusions:</h4>
+    <ul>
+      <% h.inclusions.forEach(i => { %>
+        <li><%= i %></li>
+      <% }) %>
+    </ul>
+  <% } %>
           </article>
           <% }) %>
         </section>
