@@ -47,38 +47,35 @@
 
     <!-- Hotel Code -->
     <section class="wrapper style1">
-      <div class="container">
-        <header class="major">
-          <h2><%= hotel.title %></h2>
-          <p><%= hotel.duration %> | Starting at <%= hotel.price %></p>
-        </header>
-        <div class="row">
-          <div class="col-6 col-12-medium">
-            <span class="image fit">
-              <img src="<%= hotel.image %>" alt="<%= hotel.title %>">
-            </span>
-          </div>
-          <div class="col-6 col-12-medium">
-            <h3>Highlights</h3>
-            <ul>
-              <% hotel.highlights.forEach(h => { %>
-                <li><%= h %></li>
-              <% }) %>
-            </ul>
-
-            <h3>Inclusions</h3>
-            <ul>
-              <% hotel.inclusions.forEach(i => { %>
-                <li><%= i %></li>
-              <% }) %>
-            </ul>
-
-            <p><%= hotel.description %></p>
-          </div>
-        </div>
+  <div class="container">
+    <header class="major">
+      <h2><%= hotel.title %></h2>
+      <p><%= hotel.location %> | Starting at <%= hotel.price %></p>
+    </header>
+    <div class="row">
+      <div class="col-6 col-12-medium">
+        <span class="image fit">
+          <img src="<%= hotel.image %>" alt="<%= hotel.title %>">
+        </span>
       </div>
-    </section>
+      <div class="col-6 col-12-medium">
+        <h3>Highlights</h3>
+        <ul>
+          <% hotel.highlights.forEach(h => { %>
+            <li><%= h %></li>
+          <% }) %>
+        </ul>
+        <h3>Inclusions</h3>
+        <ul>
+          <% hotel.inclusions.forEach(i => { %>
+            <li><%= i %></li>
+          <% }) %>
+        </ul>
+        <p><%= hotel.description %></p>
+      </div>
+    </div>
   </div>
+</section>
 
 <!-- Footer -->
     <div id="footer">

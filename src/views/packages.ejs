@@ -46,36 +46,25 @@
 
 <!--Packages code-->
     <section class="carousel">
-      <div class="wrapper style1">
-        <section id="features" class="container special">
-            <p>Loaded <%= packages.length %> packages</p>
-            <% packages.forEach(p => { %>
-         <article class="col-4 col-12-mobile special">
-  <div class="carousel-image">
-    <a href="/packages/<%= p.id %>" class="image featured">
-      <img src="<%= p.image %>" alt="" />
-    </a>
-  </div>
-  <header>
-    <h3><a href="/packages/<%= p.id %>"><%= p.title %></a></h3>
-  </header>
-
-  <p><%= p.description.substring(0, 100) %>...<br>Starting at <%= p.price %></p>
-
-  <% if (p.inclusions && p.inclusions.length) { %>
-    <h4>Inclusions:</h4>
-    <ul>
-      <% p.inclusions.forEach(i => { %>
-        <li><%= i %></li>
+  <div class="wrapper style1">
+    <section id="features" class="container special">
+      <p>Loaded <%= packages.length %> packages</p>
+      <% packages.forEach(p => { %>
+        <article class="col-4 col-12-mobile special">
+          <div class="carousel-image">
+            <a href="/packages/<%= p.id %>" class="image featured">
+              <img src="<%= p.image %>" alt="<%= p.title %>" />
+            </a>
+          </div>
+          <header>
+            <h3><a href="/packages/<%= p.id %>"><%= p.title %></a></h3>
+          </header>
+          <p><%= p.description %><br>Starting at <%= p.price %></p>
+        </article>
       <% }) %>
-    </ul>
-  <% } %>
-</article>
-          <% }) %>
-        </section>
-      </div>
     </section>
   </div>
+</section>
 
 <!-- Footer -->
     <div id="footer">

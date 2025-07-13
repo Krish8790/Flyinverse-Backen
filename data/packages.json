@@ -2,28 +2,28 @@
   {
     "id": "Best-Canada",
     "title": "12N - Best Of Canada (Van Tour)",
+    "description": "Canada has utter expanses of nature and most of the land area is complete wilderness. There are massive adventures and joys that are just picture-perfect in combination. This 12N Best of Canada (Van Tour) package wraps all the leisure of the place for you and to create a perfect trip for your vacations.",
+    "image": "/images/Packages/Canada.jpg",
     "duration": "12 Nights / 13 Days",
     "highlights": ["Day 1:– Arrival in Toronto ", "Day 2:- Niagara - Toronto ", "Day 3:- Toronto - Kingston - Ottawa", "Day 4:- Ottawa - City Tour - Montreal", "Day 5:- Montreal - City Tour", "Day 6:- Montreal - Quebec City Tour", "Day 7:- Montreal - Banff ", "Day 8:- Banff ", "Day 9:- Banff - Ice fields - Jasper", "Day 10:- Jasper - Kamloops", "Day 11:- Vancouver - Capilano Suspension Bridge", "Day 12:- Vancouver - Whistler", "Day 13:- Vancouver - Fly Out"],
-    "inclusions": ["02 Nights accommodation in Toronto at Hotel Four Point Sheraton / Delta by Marriott or similar", "01 Night accommodation in Ottawa at Hotel Four Point Sheraton / Holiday Inn or similar", "03 Night accommodation in Montreal at Hotel Crown Plaza / Sheraton Montreal or similar", "02 Nights accommodation in Banff at Hotel Banff Park Lodge / Banff Caribou or similar", "01 Night accommodation in Jasper at Hotel Chateau Jasper / Best Western or similar", "03 Nights accommodation in Kamloops at Hotel Sandman / Holiday Inn or similar", "Meals on Breakfast and Dinner basis at the Hotel", "Return airport transfers included", "All surface transfers included", "Sightseeing as per the below itinerary", "Entrance Tickets of Maid of the Mist, Journey behind the falls, CN Tower, 1000 Islands Cruise, Olympic Park, Banff gondola ride, Peak to Peak, Icefield Explorer, Capilano Suspension Bridge included"],
-    "description": "Canada has utter expanses of nature and most of the land area is complete wilderness. There are massive adventures and joys that are just picture-perfect in combination. This 12N Best of Canada (Van Tour) package wraps all the leisure of the place for you and to create a perfect trip for your vacations.",
-    "image": "/images/Packages/Canada.jpg"
+    "inclusions": ["02 Nights accommodation in Toronto at Hotel Four Point Sheraton / Delta by Marriott or similar", "01 Night accommodation in Ottawa at Hotel Four Point Sheraton / Holiday Inn or similar", "03 Night accommodation in Montreal at Hotel Crown Plaza / Sheraton Montreal or similar", "02 Nights accommodation in Banff at Hotel Banff Park Lodge / Banff Caribou or similar", "01 Night accommodation in Jasper at Hotel Chateau Jasper / Best Western or similar", "03 Nights accommodation in Kamloops at Hotel Sandman / Holiday Inn or similar", "Meals on Breakfast and Dinner basis at the Hotel", "Return airport transfers included", "All surface transfers included", "Sightseeing as per the below itinerary", "Entrance Tickets of Maid of the Mist, Journey behind the falls, CN Tower, 1000 Islands Cruise, Olympic Park, Banff gondola ride, Peak to Peak, Icefield Explorer, Capilano Suspension Bridge included"]
   },
   {
     "id": "bali-escape",
     "title": "Bali Escape – 6 Nights / 7 Days",
+    "description": "Includes flights, beach villa, daily breakfast, and guided tours to Ubud, Tanah Lot & Mount Batur.",
+    "image": "/images/Packages/Bali.jpg",
     "duration": "6 Nights / 7 Days",
     "highlights": ["Ubud tour", "Beach villa", "Mount Batur"],
-    "inclusions": ["Flight Tickets", "6 Nights Stay", "Breakfast", "Airport Transfers"],
-    "description": "Includes flights, beach villa, daily breakfast, and guided tours to Ubud, Tanah Lot & Mount Batur.",
-    "image": "/images/Packages/Bali.jpg"
+    "inclusions": ["Flight Tickets", "6 Nights Stay", "Breakfast", "Airport Transfers"]
   },
   {
     "id": "Swiss-to-Venice",
     "title": "5N Europe - Swiss to Venice (Fixed Departure)",
+    "description": "This Fixed departure will include Lausanne–Montreux–Vevey – Lucerne-Zurich-Innsbruck – Wattens – Venice and the trip will give you a great experience.",
+    "image": "/images/Packages/Swiss.jpg",
     "duration": "5 Nights / 6 Days",
     "highlights": ["Day 1:- Switzerland", "Day 2:- Vevey – Montreux – Mt. Titlis – Lucerne", "Day 4:- Zurich – Rhine Falls - Wattens – Innsbruck (Austria)", "Day 5:- Innsbruck – Venice (Italy)", "Day 6:- Continue to your onwards destination"],
-    "inclusions": ["Accommodation for 03 nights in Switzerland", "Accommodation for 01 night in Innsbruck", "Accommodation for 01 night in Venice/Padova", "Orientation tour of Geneva, Lausanne, Montreux, Vevey, Lucerne, Innsbruck, Venice & Florence", "01 Train Ride (UNESCO Heritage Route)", "Excursion to Mt. Titlis with Ice Flyer", "Wattens: Swarovski Museum", "Venice Vaporetto ride", "05 Breakfast and 05 Veg / Non Veg / Jain Dinners at Indian Restaurant", "Hindi / English speaking Tour Manager", "Coach transfer throughout the tour except First and Last Day."],
-    "description": "This Fixed departure will include Lausanne–Montreux–Vevey – Lucerne-Zurich-Innsbruck – Wattens – Venice and the trip will give you a great experience.",
-    "image": "/images/Packages/Swiss.jpg"
+    "inclusions": ["Accommodation for 03 nights in Switzerland", "Accommodation for 01 night in Innsbruck", "Accommodation for 01 night in Venice/Padova", "Orientation tour of Geneva, Lausanne, Montreux, Vevey, Lucerne, Innsbruck, Venice & Florence", "01 Train Ride (UNESCO Heritage Route)", "Excursion to Mt. Titlis with Ice Flyer", "Wattens: Swarovski Museum", "Venice Vaporetto ride", "05 Breakfast and 05 Veg / Non Veg / Jain Dinners at Indian Restaurant", "Hindi / English speaking Tour Manager", "Coach transfer throughout the tour except First and Last Day."]
   }
 ]
