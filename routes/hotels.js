@@ -3,7 +3,7 @@ const router = express.Router();
 const path = require('path');
 const fs = require('fs');
 
-const hotel = JSON.parse(
+const hotels = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../data/hotels.json'))
 );
 
@@ -12,8 +12,8 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-  const hotel = hotel.find(h => h.id === req.params.id);
-  if (!hotel) return res.status(404).send('Hotel not found');
+  const hotel = hotels.find(p => p.id === req.params.id);
+  if (!hotel) return res.status(404).send('Hotels not found');
   res.render('hotel', { hotel: hotel });
 });
 
